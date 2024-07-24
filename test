@@ -108,7 +108,7 @@ do -- Load items
     local Cache_2 = Instance.new("Frame")
 
     imgui2.Name = "imgui2"
-    imgui2.Parent = game:GetService("StarterGui")
+    imgui2.Parent = game:GetService("Players").LocalPlayer.PlayerGui
 
     Presets.Name = "Presets"
     Presets.Parent = imgui2
@@ -1109,7 +1109,7 @@ end
 
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
-local CoreGui = game:GetService("StarterGui")
+local CoreGui = game:GetService("Players").LocalPlayer.PlayerGui
 local ScreenGui = CoreGui:FindFirstChild("imgui2")
 local Presets = ScreenGui:FindFirstChild("Presets")
 local ScreenGuiCache = ScreenGui:FindFirstChild("Cache")
