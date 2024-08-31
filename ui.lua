@@ -1,3 +1,4 @@
+
 --[[
 	ui-engine-v2
 	version 1.3a
@@ -2021,4 +2022,3 @@ function library:AddWindow(title, options)
 
 	return window_data, Window
 end
-	library:FormatWindows()
